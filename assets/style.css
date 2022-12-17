@@ -1,3 +1,10 @@
+/* *{
+    background-color: rgb(244, 244, 226);
+} */
+body {
+    background-color: rgb(244, 239, 226);
+}
+
 header {
    display: flex;
    justify-content: space-between;
@@ -16,13 +23,11 @@ h1 {
     text-align: center;
     align-self: center;
     color: #5c6e63;
-    background-color: #a3b899;
-    
+    background-color: #b2cc9b;
 }
-
-/* nav ul {
-    
-} */
+nav {
+    background-color: #5c6e63;
+}
 
 nav ul li {
     display: inline;
@@ -31,5 +36,79 @@ nav ul li {
     padding: 10px;
     font-size: 25px;
     text-decoration:none;
-    color: #a3b899
+    color: #a3b899;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 200px;
+    background-image: url(./Images/pexels-anni-roenkae-2860804.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+}
+
+.banner div {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    text-align: center;
+}
+
+.slogan {
+    background-color:#b2cc9b;
+    color:#5c6e63 ;
+    font-size: 28px;
+    width: 240px;
+    position: absolute;
+    margin: 18px 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.sec-one {
+    flex-direction: row;
+}
+
+.header {
+    color: #a3b899;
+    font-size: 40px;
+    width: 10%;
+    padding: 3%;
+    border-right: #a3b899 solid;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+ main section {
+    display: flex;
+
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main p {
+    color:#a3b899;
+    font-size: 18px;
+    padding-left:3%;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+
+.gallery {
+    height: 500px;
+    min-width: 600px;
+    border: #5c6e63 solid;
+    background-image: url(./Images/pexels-eberhard-grossgasteiger-844297.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
 }
