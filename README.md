@@ -9,3 +9,4 @@ An About Me website that is extremely random
 
 ## Link
 
+https://masakisenpai.github.io/Prototype-Portfolio/
